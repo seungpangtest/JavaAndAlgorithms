@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /* 백준 9093번,단어 뒤집기 : 스택을 사용하지 않고 reverse() 사용 */
-public class Roll_over_1 {
+public class Roll_over_1_MemoryOut {
     public static void main(String[] args) throws IOException {
 //        Scanner sc = new Scanner(System.in);
 //        int n = sc.nextInt();

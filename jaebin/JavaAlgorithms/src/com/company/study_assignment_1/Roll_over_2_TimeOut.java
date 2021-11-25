@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 /* 백준 9093번,단어 뒤집기 : 스택을 사용 */
-public class Roll_over_2 {
+public class Roll_over_2_TimeOut {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

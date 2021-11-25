@@ -2,8 +2,8 @@ package study_assignment_1;
 
 import java.util.Scanner;
 
-/*최대공약수와 최소공배수*/
-public class Common_factor_1 {
+/* 백준 2609번: 최대공약수와 최소공배수*/
+public class Common_factor_1_Success {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
