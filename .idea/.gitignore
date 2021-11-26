@@ -8,10 +8,11 @@
 /httpRequests/
 
 #my gitignore
-.idea
+/.idea
 *.iws
 *.iml
 *.ipr
 out/
+/out/**
 !**/src/main/**/out/
 !**/src/test/**/out/
