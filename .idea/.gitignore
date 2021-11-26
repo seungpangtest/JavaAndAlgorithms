@@ -9,9 +9,9 @@
 
 #my gitignore
 /.idea
-*.iws
-*.iml
-*.ipr
+/*.iws
+/*.iml
+/*.ipr
 out/
 /out/**
 !**/src/main/**/out/
