@@ -2,7 +2,7 @@ package study_assignment_1;
 
 import java.util.Scanner;
 
-/*백준 1929번 : 소수 구하기, 시간 초과 뜸.*/
+/*백준 1929번 : 소수 구하기*/
 public class Decimal_2_Success {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
