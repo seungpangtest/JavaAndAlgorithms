@@ -3,6 +3,7 @@ package study_assignment_2;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*백준 알고리즘 : 2309번 문제 , 브루트 포스*/
 public class SevenDwarf {
     public static void main(String[] args) {
         //
