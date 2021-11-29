@@ -1,4 +1,4 @@
-package practice;
+package practice_1;
 
 public class Dark_Bright_1 {
 

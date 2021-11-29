@@ -1,4 +1,4 @@
-package practice;
+package practice_1;
 
 public class Dot_product_1 {
 

@@ -3,7 +3,7 @@ package study_assignment_1;
 import java.util.Scanner;
 
 /*백준 6588번 : 골드바흐의 추측*/
-public class GoldBarh_1_TimeOut {
+public class GoldBarh_1_Success {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int result = 0;
@@ -25,7 +25,7 @@ public class GoldBarh_1_TimeOut {
                     max = result - (2 * i + 1);
 //                    System.out.println("max는?" + max);
                     if (min == 1) continue;
-                    if (decimal(min, max, result)) {
+                    if (decimal(min, max)) {
                         System.out.println((result) + " = " + min + " + " + max);
                         break;
                     } else continue;
@@ -36,7 +36,7 @@ public class GoldBarh_1_TimeOut {
         }
     }
 
-    public static boolean decimal(int a, int b, int r) {
+    public static boolean decimal(int a, int b) {
         //true를 만들자!!
         //a가 3
         //b가 5
@@ -44,17 +44,17 @@ public class GoldBarh_1_TimeOut {
         boolean result1 = true;
         boolean result2 = true;
 
-        for (int i = 2; i <a; i++) {
+        for (int i = 2; i * i <= a; i++) {
             if (a % i == 0) {
                 result1 = false;
             }
         }
-        for (int i = 2; i < b; i++) {
+        for (int i = 2; i * i <= b; i++) {
             if (b % i == 0) {
                 result2 = false;
             }
         }
-        if ((result1==true) && (result2==true)) {
+        if ((result1 == true) && (result2 == true)) {
             return true;
         } else {
             return false;
