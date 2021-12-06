@@ -1,4 +1,4 @@
-package practice_2;
+package study_2.practice_2;
 
 public class Sol_3 {
     public static void main(String[] args) {

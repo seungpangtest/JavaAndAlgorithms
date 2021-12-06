@@ -1,4 +1,4 @@
-package practice_1;
+package study_1.practice_1;
 
 public class Remainder_1 {
 

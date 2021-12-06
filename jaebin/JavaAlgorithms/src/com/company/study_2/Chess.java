@@ -1,7 +1,7 @@
-package study_assignment_2;
+package study_2;
 
 import java.util.Scanner;
-
+/*백준알고리즘 1018번 : 브루트 포스 체스판 다시칠하기*/
 public class Chess {
     public static void main(String[] args) {
 
