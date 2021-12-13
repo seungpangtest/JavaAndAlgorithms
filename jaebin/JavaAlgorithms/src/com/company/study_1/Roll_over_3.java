@@ -1,4 +1,4 @@
-package study_assignment_1;
+package study_1;
 
 import java.io.*;
 import java.util.Stack;

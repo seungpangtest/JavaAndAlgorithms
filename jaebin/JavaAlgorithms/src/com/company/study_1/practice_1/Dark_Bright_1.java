@@ -1,4 +1,4 @@
-package practice_1;
+package study_1.practice_1;
 
 public class Dark_Bright_1 {
 
@@ -12,6 +12,7 @@ public class Dark_Bright_1 {
 
     public static int solution(int[] absolutes, boolean[] signs) {
         int answer = 0;
+        // 문제 조건에 이미 있어서 안해도됨.
         if(absolutes.length == 0 || signs.length == 0){
             return answer;
         }
@@ -20,7 +21,7 @@ public class Dark_Bright_1 {
             if(signs[i] == false){
                 absolutes[i] = -absolutes[i];
             }
-            answer = answer + absolutes[i];
+            answer += absolutes[i];
         }
         return answer;
     }

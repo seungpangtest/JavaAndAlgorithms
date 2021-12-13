@@ -1,4 +1,4 @@
-package practice_1;
+package study_1.practice_1;
 
 public class Dot_product_1 {
 
@@ -15,7 +15,7 @@ public class Dot_product_1 {
             return answer;
         }
         for(int i = 0 ; i<a.length; i++){
-            answer = answer + (a[i] * b[i]);
+            answer += (a[i] * b[i]);
         }
         return answer;
     }
