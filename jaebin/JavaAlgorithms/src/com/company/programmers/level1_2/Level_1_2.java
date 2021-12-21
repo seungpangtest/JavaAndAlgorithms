@@ -1,5 +1,6 @@
 package programmers.level1_2;
 
+//프로그래머스 다트게임
 public class Level_1_2 {
     public static void main(String[] args) {
         String s = "1S2D*3T";

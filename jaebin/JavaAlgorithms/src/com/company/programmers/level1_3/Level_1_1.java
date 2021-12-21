@@ -1,5 +1,6 @@
 package programmers.level1_3;
 
+//프로그래머스 신규 아이디 추천
 public class Level_1_1 {
     public static void main(String[] args) {
         String s = "...!@BaT#*..y.abcdefghijklm";
