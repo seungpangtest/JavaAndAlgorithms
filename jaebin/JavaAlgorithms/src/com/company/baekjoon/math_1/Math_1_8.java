@@ -10,5 +10,6 @@ public class Math_1_8 {
         BigInteger a = sc.nextBigInteger();
         BigInteger b = sc.nextBigInteger();
 
+        System.out.println(a.add(b));
     }
 }
