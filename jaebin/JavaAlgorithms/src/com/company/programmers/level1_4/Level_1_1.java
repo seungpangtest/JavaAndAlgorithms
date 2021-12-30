@@ -1,5 +1,6 @@
 package programmers.level1_4;
 
+//프로그래머스 레벨1 : kakao , 비밀지도
 public class Level_1_1 {
     public static void main(String[] args) {
         int n = 6;

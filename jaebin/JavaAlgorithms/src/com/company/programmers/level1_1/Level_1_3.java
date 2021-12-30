@@ -3,7 +3,7 @@ package programmers.level1_1;
 import java.util.ArrayList;
 import java.util.Collections;
 
-//프로그래머스 레벨 1 실패율
+//프로그래머스 레벨 1 : kakao , 실패율
 public class Level_1_3 {
     public static void main(String[] args) {
         int N = 4;

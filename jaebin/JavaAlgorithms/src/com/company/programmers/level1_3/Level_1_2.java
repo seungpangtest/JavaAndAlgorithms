@@ -1,6 +1,6 @@
 package programmers.level1_3;
 
-//프로그래머스 소수 만들기
+//프로그래머스 레벨1 : 소수 만들기
 public class Level_1_2 {
     public static void main(String[] args) {
         int[] n = {1,2,7,6,4};
