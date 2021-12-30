@@ -5,8 +5,8 @@ import java.util.HashMap;
 //프로그래머스 레벨1 : kakao , 키패드 누르기
 public class Level_1_3 {
     public static void main(String[] args) {
-        int n[] = {1, 3, 4, 5, 8, 2, 1, 4, 5, 9, 5};
-        String s = "right";
+        int n[] = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
+        String s = "left";
         System.out.println(solution(n, s));
     }
 
@@ -69,10 +69,10 @@ public class Level_1_3 {
                     answer += "L";
                     tL = String.valueOf(numbers[i]);
                 } else if (rv == lv) {
-                    if (hand == "right") {
+                    if (hand.equals("right")) {
                         answer += "R";
                         tR = String.valueOf(numbers[i]);
-                    } else if (hand == "left") {
+                    } else if (hand.equals("left")) {
                         answer += "L";
                         tL = String.valueOf(numbers[i]);
                     }
