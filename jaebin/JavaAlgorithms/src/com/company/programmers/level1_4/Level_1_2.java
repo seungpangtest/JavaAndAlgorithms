@@ -6,16 +6,17 @@ import java.util.HashMap;
 public class Level_1_2 {
     public static void main(String[] args) {
         String s = "23four5six7";
-        solution(s);
         System.out.println(solution(s));
     }
-    //전략 : 1. 배열에 영단어를 넣고 contains 로 확인한다. 2.받은 문자열을 replace로 숫자인 문자열로 변환
+
+    //전략 : 1. 배열에 영단어를 넣고 contains 로 확인한다. 2.받은 문자열을 replace로 숫자인 문자열로 변환. 3.받은 문자열을 charAt으로 하나하나 검사(좋지않음.)
     public static int solution(String s) {
         int answer = 0;
         String s1 = "";
         String s2 = "";
         String s3 = "";
-        HashMap<String , Integer> hs = new HashMap<>();
+//        String[] nums = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
+//        String[] words = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
 
         for (int i = 0; i < s.length(); i++) {
             s1 = String.valueOf(s.charAt(i));
@@ -108,10 +109,4 @@ public class Level_1_2 {
         answer = Integer.parseInt(s2);
         return answer;
     }
-
-//    public static String eWord(String[] a, char b) {
-//        String answer = "";
-//
-//        return "";
-//    }
 }
