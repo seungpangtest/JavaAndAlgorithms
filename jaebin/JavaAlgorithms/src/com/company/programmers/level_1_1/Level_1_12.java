@@ -1,6 +1,6 @@
-package programmers.level1_5;
+package com.company.programmers.level_1_1;
 //프로그래머스 레벨1 : 행렬의 덧셈
-public class Level_1_2 {
+public class Level_1_12 {
     public static void main(String[] args) {
         int[][] arr1 = {{1, 2}, {2, 3}};
         int[][] arr2 = {{3, 4}, {5, 6}};

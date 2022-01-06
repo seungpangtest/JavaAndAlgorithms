@@ -2,6 +2,7 @@ package study_4_Recursion;
 
 import java.util.Scanner;
 
+// 백준 9095번 : 1,2,3 더하기 (재귀를 이용하여 풀기)
 public class One_Two_Three {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -22,7 +23,7 @@ public class One_Two_Three {
         int now = 0;
         for (int i = 1; i <= 3; i++) {
             now += ch(sum + i, goal);
-            System.out.println(now);
+//            System.out.println(now);
         }
         return now;
     }

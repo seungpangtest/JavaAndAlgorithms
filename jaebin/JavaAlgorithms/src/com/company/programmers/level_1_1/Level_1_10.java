@@ -1,9 +1,9 @@
-package programmers.level1_4;
+package com.company.programmers.level_1_1;
 
 import java.util.HashMap;
 
 //프로그래머스 레벨1 : kakao , 키패드 누르기
-public class Level_1_3 {
+public class Level_1_10 {
     public static void main(String[] args) {
         int n[] = {7, 0, 8, 2, 8, 3, 1, 5, 7, 6, 2};
         String s = "left";

@@ -1,7 +1,7 @@
-package programmers.level1_2;
+package com.company.programmers.level_1_1;
 
 //프로그래머스 레벨1 :  문자열 비교 개수 구하기
-public class Level_1_1 {
+public class Level_1_4 {
     public static void main(String[] args) {
         String s = "Pyy";
         solution(s);

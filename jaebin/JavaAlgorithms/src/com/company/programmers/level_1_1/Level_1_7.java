@@ -1,7 +1,7 @@
-package programmers.level1_3;
+package com.company.programmers.level_1_1;
 
 //프로그래머스 레벨1 : 소수 만들기
-public class Level_1_2 {
+public class Level_1_7 {
     public static void main(String[] args) {
         int[] n = {1,2,7,6,4};
         solution(n);

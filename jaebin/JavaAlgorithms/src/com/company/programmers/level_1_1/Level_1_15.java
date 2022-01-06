@@ -1,9 +1,9 @@
-package programmers.level1_5;
+package com.company.programmers.level_1_1;
 
 import java.util.ArrayList;
 
 //프로그래머스 레벨1 : 제일 작은 수 제거하기
-public class Level_1_5 {
+public class Level_1_15 {
     public static void main(String[] args) {
         int[] n = {4, 3, 2, 1};
         solution(n);

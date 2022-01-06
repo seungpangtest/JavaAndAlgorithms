@@ -1,9 +1,7 @@
-package programmers.level1_4;
-
-import java.util.HashMap;
+package com.company.programmers.level_1_1;
 
 //프로그래머스 레벨1 : kakao , 숫자 문자열과 영단어
-public class Level_1_2 {
+public class Level_1_9 {
     public static void main(String[] args) {
         String s = "23four5six7";
         System.out.println(solution(s));

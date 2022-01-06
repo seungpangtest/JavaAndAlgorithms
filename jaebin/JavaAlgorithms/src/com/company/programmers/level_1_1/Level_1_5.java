@@ -1,7 +1,7 @@
-package programmers.level1_2;
+package com.company.programmers.level_1_1;
 
 //프로그래머스 레벨1 : kakao, 다트게임
-public class Level_1_2 {
+public class Level_1_5 {
     public static void main(String[] args) {
         String s = "1S2D*3T";
         solution(s);

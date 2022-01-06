@@ -1,9 +1,9 @@
-package programmers.level1_5;
+package com.company.programmers.level_1_1;
 
 import java.util.ArrayList;
 
 //프로그래머스 레벨1 : kakao , 크레인 인형뽑기 게임
-public class Level_1_1 {
+public class Level_1_11 {
     public static void main(String[] args) {
         int[][] a = {{0, 0, 0, 0, 0}, {0, 0, 1, 0, 3}, {0, 2, 5, 0, 1}, {4, 2, 4, 4, 2}, {3, 5, 1, 3, 1}};
         int[] b = {1, 5, 3, 5, 1, 2, 1, 4};
