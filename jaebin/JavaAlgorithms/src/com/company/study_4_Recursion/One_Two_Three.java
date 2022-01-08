@@ -16,11 +16,15 @@ public class One_Two_Three {
         }
 
     }
-
+    // 그리고 모든 재귀는 for문으로 나타낼수있습니다.
      public static int ch(int sum, int goal) {
+        //끝나는 조건
         if (sum > goal) return 0;
+         //끝나는 조건
         if (sum == goal) return 1;
+        //결과 now
         int now = 0;
+        // 재귀 로직
         for (int i = 1; i <= 3; i++) {
             now += ch(sum + i, goal);
 //            System.out.println(now);

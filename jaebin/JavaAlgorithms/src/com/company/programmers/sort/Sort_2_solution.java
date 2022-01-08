@@ -3,7 +3,7 @@ package programmers.sort;
 import java.util.Arrays;
 import java.util.Comparator;
 
-//프로그래머스 : 정렬
+//프로그래머스 : 정렬 , 가장 큰 수
 public class Sort_2_solution {
 
     public static void main(String[] args) {

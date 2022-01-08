@@ -1,4 +1,4 @@
-package programmers.level1_6;
+package com.company.programmers.Level_1_3;
 
 //프로그래머스 레벨 1 :부족한 금액 계산하기
 public class Level_1_24 {

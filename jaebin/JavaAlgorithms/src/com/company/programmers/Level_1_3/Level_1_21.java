@@ -1,4 +1,4 @@
-package programmers.level1_6;
+package com.company.programmers.Level_1_3;
 
 //프로그래머스 레벨1: 가운데 글자 가져오기
 public class Level_1_21 {

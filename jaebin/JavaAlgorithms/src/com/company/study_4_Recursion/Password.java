@@ -36,8 +36,8 @@ public class Password {
         return (j >= 2 && m >= 1);
     }
 
-    //
     public static void pass(int l, String[] arr, String password, int i) {
+        //종료 조건 ->
         if (password.length() == l) {
             if (valid(password) == true) {
                 System.out.println(password);
@@ -45,7 +45,9 @@ public class Password {
             return;
         }
         if (i >= arr.length) return;
+        //F1
         pass(l, arr, password + arr[i], i + 1);
+        //F2
         pass(l, arr, password, i+1);
         return;
     }

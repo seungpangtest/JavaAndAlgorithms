@@ -12,6 +12,7 @@ public class One_Two_Three_2 {
         nArr[1] = 1;
         nArr[2] = 2;
         nArr[3] = 4;
+        // 1 2 4 7 13
         for (int i = 4; i < nArr.length; i++) {
             nArr[i] = nArr[i - 3] + nArr[i - 2] + nArr[i - 1];
 
