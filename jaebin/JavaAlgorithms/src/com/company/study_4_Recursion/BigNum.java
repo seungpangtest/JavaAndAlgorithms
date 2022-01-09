@@ -1,5 +1,6 @@
 package com.company.study_4_Recursion;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 //백준 18511번 : 재귀, 큰 수 구성하기
@@ -9,26 +10,26 @@ public class BigNum {
         int n = sc.nextInt();
         int k = sc.nextInt();
         int a[] = new int[k];
-        int max = Integer.MIN_VALUE;
         for (int i = 0; i < a.length; i++) {
+            //1 5 7
             a[i] = sc.nextInt();
         }
-        rec(n, a, 0, max);
+        Arrays.sort(a);
+        int max = Integer.MIN_VALUE;
+        //657, a, i==0, max
+        max = rec(n, a, max, 0);
+        System.out.println(max);
     }
 
-    public static void rec(int n, int[] a, int i, int max) {
-        if (String.valueOf(max).length() <= String.valueOf(n).length()) {
-            if (n < max) {
-                return;
-            }
+    // 전략:
+    public static int rec(int n, int[] a, int max, int now) {
+        if (now > n) return max;
+        if (now > max){
+            max = now;
         }
-        if (max < 10) {
-            max = a[i];
+        for (int i = a.length - 1; i >= 0; i--) {
+            max = rec(n, a, max, now * 10 + a[i]);
         }
-
-        max += 10 * a[i];
-        rec(n, a, i + 1, max);
-
-        return;
+        return max;
     }
 }
