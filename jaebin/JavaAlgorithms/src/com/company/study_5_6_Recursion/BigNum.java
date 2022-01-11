@@ -1,4 +1,4 @@
-package com.company.study_4_Recursion;
+package com.company.study_5_6_Recursion;
 
 import java.util.Arrays;
 import java.util.Scanner;

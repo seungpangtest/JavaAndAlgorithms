@@ -1,4 +1,4 @@
-package com.company.study_4_Recursion;
+package com.company.study_5_6_Recursion;
 
 import java.util.Scanner;
 //백준 17478번 : 재귀, 재귀함수가 뭔가요?
