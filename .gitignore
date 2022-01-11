@@ -1,3 +1,15 @@
+<<<<<<< HEAD
+=======
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+
+>>>>>>> 2c6685d8a07261b475b79f2db0036041b0a7cb9b
 #my gitignore
 .idea
 *.iws
@@ -10,4 +22,8 @@ out/
 /*.ipr
 /out/
 !**/src/main/**/out/
+<<<<<<< HEAD
 !**/src/test/**/out/
+=======
+!**/src/test/**/out/
+>>>>>>> 2c6685d8a07261b475b79f2db0036041b0a7cb9b

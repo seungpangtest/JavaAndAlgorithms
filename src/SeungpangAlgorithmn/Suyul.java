@@ -1,11 +1,11 @@
 package SeungpangAlgorithmn;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Suyul {
     static int[] array = new int[10];
     static boolean[] check = new boolean[10];
-    StringBuilder sb = new StringBuilder();
+    static StringBuilder sb = new StringBuilder();
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
