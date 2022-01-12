@@ -1,4 +1,4 @@
-package com.company.baekjoon.stack;
+package com.company.baekjoon.stack_queue;
 
 import java.io.BufferedReader;
 import java.io.IOException;
