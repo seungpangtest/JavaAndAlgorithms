@@ -1,3 +1,4 @@
+
 # Default ignored files
 /shelf/
 /workspace.xml
@@ -6,6 +7,7 @@
 /dataSources.local.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
 
 #my gitignore
 .idea
@@ -17,6 +19,8 @@ out/
 /*.iws
 /*.iml
 /*.ipr
+/wamma/src/ignore/
 /out/
 !**/src/main/**/out/
 !**/src/test/**/out/
+
