@@ -5,8 +5,8 @@ import java.util.ArrayList;
 //프로그래머스 레벨2 : 그리디, 큰수 만들기
 public class BigNum {
     public static void main(String[] args) {
-        String nu = "1924";
-        int k = 2;
+        String nu = "4177252841";
+        int k = 4;
         solution(nu, k);
     }
 
